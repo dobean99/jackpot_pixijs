@@ -8,7 +8,6 @@ export class Tools {
         data: req(key),
       });
     });
-    console.log(files);
     return files;
   }
 }

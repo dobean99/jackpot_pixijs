@@ -20,7 +20,6 @@ export class Loader {
               Object.keys(this.resources).length >= this.config.loader.length
             ) {
               resolve();
-              console.log("preload=======", this.resources);
             }
           });
         }
